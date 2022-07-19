@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.heading {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/bg.jpg');
+    background-position-x:center;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    ;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: deeppink;
+    transition: .5s;
+    
+
+}
+
+.social:hover {
+    transform: scale(1.1);
+}
+
+.greeting {
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+.greeting h2 {
+    color: deeppink;
+    margin: 20px 0 20px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 40px;
+    color: black;
+
+}
+
+.about {
+width: 100%;
+padding: 100px 0px;
+background-color:aliceblue;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+    
+}
+
+.details {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    width: 550px;
+
+}
+
+.intro h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+    font-family:'Edu SA Beginner';
+    font-weight: 700px;
+}
+
+.intro p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+h2 {
+    color: deeppink;
+    margin: 20px 0 20px;
+    font-size: 90px;
+    font-weight: bold;
+}
+.skills ul {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+}
+  
+.projects {
+    background-color: lavenderblush;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h1 {
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.card {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+background-color: lavenderblush;
+
+}
+.projects {
+    background-color: aliceblue;
+    width: 100%;
+    padding: 100px 0px;  
+}
+h1 {
+    font-family:'Edu SA Beginner';
+    color: deeppink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: deeppink;
+    color: lavenderblush;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.button
+{
+    border-radius: 18px;
+}
